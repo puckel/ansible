@@ -3,7 +3,7 @@
   user: root
 
   vars:
-    - foo: bar
+    - foo: wootwoot
 
   tasks:
 
