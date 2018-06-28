@@ -1,0 +1,10 @@
+- hosts: local
+  gather_facts: True
+  user: root
+
+  vars:
+    - foo: bar
+
+  tasks:
+
+    - debug: var=foo
